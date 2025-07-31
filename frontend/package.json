@@ -1,0 +1,54 @@
+{
+    "name": "rt3-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://rt3-backend:8000",
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@mui/material": "^7.2.0",
+        "@mui/icons-material": "^7.2.0",
+        "@mui/x-date-pickers": "^8.6.0",
+        "date-fns": "^4.1.0",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.3.0",
+        "@testing-library/user-event": "^14.6.1",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "react-router-dom": "^7.6.3",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^5.0.3",
+        "@tanstack/react-virtual": "^3.13.12"
+    },
+    "devDependencies": {
+        "@craco/craco": "^7.1.0"
+    },
+    "scripts": {
+        "start": "FAST_REFRESH=false NODE_OPTIONS='--max-old-space-size=4096' craco start",
+        "build": "GENERATE_SOURCEMAP=false NODE_OPTIONS='--max-old-space-size=4096' craco build",
+        "test": "craco test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "engines": {
+        "node": ">=16.0.0",
+        "yarn": ">=1.22.0"
+    }
+}

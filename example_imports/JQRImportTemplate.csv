@@ -1,0 +1,30 @@
+﻿,Red Team Apprentice JQR
+0.1,Terminology & General Knowledge
+0.1.1,Describe the following terms:
+0.1.1.1,a. Stageless payload
+0.1.1.2,b. Staged payload
+0.1.1.3,c. Reverse shell
+0.1.1.4,d. EDR
+0.1.1.5,e. AV
+0.1.1.6,f. C2
+0.1.1.7,g. White Cell
+0.1.1.8,h. Packer
+0.1.1.9,k. Scoping
+0.1.1.10,l. Attribution
+0.1.1.11,m. Co-habitation
+0.1.2,Identify 3 common EDR platforms.
+0.1.3,Identify 3 common AV's.
+0.1.4,"Explain the difference between a traditional penetration test and a Red Team assessment, as well as how their goals differ."
+1,Phase 1 - Mission Preparation
+1.1,Authority / ROE
+1.1.1,Describe the planning process of beginning a Red Team engagement. How is the red team directed and what documents are needed to be in place before a Red Team operation may begin?
+1.1.2,Explain what a Rules of Engagement (ROE) document is to a Red Team operation and
+,what types of information are included within an ROE.
+1.1.3,"Explain the Red Team concept of ""non-attribution"" when it comes to reporting"
+,specific users.
+1.1.4,Define what a trusted agent is and discuss the importance of having one in place.
+1.1.5,Demonstrate how to retrieve an ROE for a specific operation.
+1.2,Scoping
+1.2.1,Question for scoping
+1.2.1.1,sub question 1
+1.2.1.2,sub question 2

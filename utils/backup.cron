@@ -1,0 +1,1 @@
+0 */6 * * * bash /opt/rt3/utils/backup_rt3.sh >> /app/backup/cron.log 2>&1

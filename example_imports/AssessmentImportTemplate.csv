@@ -1,0 +1,4 @@
+question_text,category_name,question_type,options,correct_answer,points
+What color is the sky?,Earth,multiple_choice,"a.red,b.green,c.blue",c,5
+Where are user documents located?,Computer,multiple_choice,"a.C:\Users,b.C:\Program Files,c.A and B,d.None of the above",c,10
+Tell me about yourself,Self,free_form,,This is an example reference answer,20

@@ -1,0 +1,117 @@
+/* Flask-like custom styles */
+
+/* Custom global styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3c6eb4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c5aa0;
+}
+
+/* Custom transitions */
+.MuiButton-root,
+.MuiPaper-root,
+.MuiCard-root,
+.MuiListItem-root {
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Flask-like button styles */
+.MuiButton-containedPrimary {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Card hover effects */
+.MuiCard-root:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Navbar enhancement */
+.MuiAppBar-root {
+  background-image: linear-gradient(to right, #3c6eb4, #2c5aa0) !important;
+}
+
+/* Table enhancements */
+.MuiTableCell-head {
+  background-color: #f7f9fc !important;
+  color: #3c6eb4 !important;
+  font-weight: 600 !important;
+}
+
+.MuiTableRow-root:nth-of-type(even) {
+  background-color: #f7f9fc;
+}
+
+/* Form field focus effects */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #3c6eb4 !important;
+  box-shadow: 0 0 0 2px rgba(60, 110, 180, 0.2) !important;
+}
+
+/* Typography enhancements */
+h1, h2, h3, h4, h5, h6,
+.MuiTypography-h1, 
+.MuiTypography-h2, 
+.MuiTypography-h3, 
+.MuiTypography-h4, 
+.MuiTypography-h5, 
+.MuiTypography-h6 {
+  letter-spacing: -0.025em;
+}
+
+/* Paper components */
+.MuiPaper-root {
+  border-radius: 6px !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Avatar enhancement */
+.MuiAvatar-root {
+  border: 2px solid #fff !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Divider enhancement */
+.MuiDivider-root {
+  border-color: rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Chip enhancements */
+.MuiChip-root {
+  font-weight: 500 !important;
+} 
